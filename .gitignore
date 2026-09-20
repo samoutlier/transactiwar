@@ -1,0 +1,15 @@
+.DS_Store
+
+# Local configuration / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Mail configuration
+docker/msmtp.conf
+
+# User-uploaded files
+uploads/*
+!uploads/.gitkeep
